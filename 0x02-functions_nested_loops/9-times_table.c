@@ -14,13 +14,14 @@ void times_table(void)
 		{
 			if (j == 0)
 			{
-				printf("%d", i * j);
+				_putchar(i * j + '0');
 			}
 			else
 			{
-				printf("\t%d", i * j);
+				_putchar('\t');
+				_putchar(i * j + '0');
 			}
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 }
